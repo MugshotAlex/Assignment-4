@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="fancifymytext.js"></script>
+</head>
+<body>
+
+<!-- This box is where the user will input their text -->
+	<fieldset style="width: 500px;">
+
+	<legend>Hi! Please input your text here.</legend>
+
+	<textarea rows="4" cols="30" id="text_id"></textarea>
+
+	</fieldset>
+
+	<br><br>
+
+<!-- This field is where the user will see and select the controls -->
+<fieldset style="width: 500px;">
+
+<legend>Fancify</legend>
+
+<!-- The Bigger! button -->
+<button onclick="new_function()">Bigger!</button><br><br>
+
+<!-- The radio buttons FancyShmancy and BoringBetty -->
+<input type="radio" name="r" value="FancyShmancy" id="fancy_radio_button" onchange="new_function()">FancyShmancy
+
+<input type="radio" name="r" value="BoringBetty" id="boring_radio_button" onchange="new_function()">BoringBetty
+
+</fieldset>
+
+<br>
+
+<br>
+
+<!-- This button will change the text entered to uppercase and then add the suffix Moo to the last word of each sentence -->
+<button onclick="moo()">Moo</button>
+
+</body>
+
+</html>
